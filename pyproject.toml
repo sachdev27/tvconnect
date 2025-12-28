@@ -163,6 +163,8 @@ requires = [
 [tool.briefcase.app.tvconnect.android]
 requires = [
     "toga-android~=0.4.7",
+    "qrcode",
+    "pillow",
 ]
 
 base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
@@ -181,4 +183,3 @@ requires = [
     "toga-web~=0.4.7",
 ]
 style_framework = "Shoelace v2.3"
-

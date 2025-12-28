@@ -1,6 +1,6 @@
 {
   "rootFolder": "/Users/sachdevs/Projects/android_tv_automation/tvconnect",
-  "analyzedAt": "2025-12-28T15:59:18.733Z",
+  "analyzedAt": "2025-12-28T16:37:50.598Z",
   "rootStructure": [
     {
       "name": ".gitignore",
@@ -31,18 +31,14 @@
       "type": "dir"
     },
     {
-      "name": "dist",
-      "type": "dir"
-    },
-    {
       "name": "logs",
       "type": "dir"
     },
     {
       "name": "overview.json",
       "type": "file",
-      "size": 6521,
-      "lines": 274
+      "size": 7065,
+      "lines": 295
     },
     {
       "name": "pyproject.toml",
@@ -95,7 +91,7 @@
     "overview.json": [
       "{",
       "\"rootFolder\": \"/Users/sachdevs/Projects/android_tv_automation/tvconnect\",",
-      "\"analyzedAt\": \"2025-12-28T15:56:48.326Z\",",
+      "\"analyzedAt\": \"2025-12-28T16:37:16.264Z\",",
       "\"rootStructure\": [",
       "{",
       "\"name\": \".gitignore\",",
@@ -135,19 +131,19 @@
     "root": "TvConnect\n========="
   },
   "totals": {
-    "numFiles": 29,
+    "numFiles": 32,
     "numDirs": 8,
-    "totalSizeBytes": 947198,
-    "totalLinesOfCode": 171
+    "totalSizeBytes": 1080777,
+    "totalLinesOfCode": 389
   },
   "fileCategories": {
-    "other": 19,
+    "other": 22,
     "documentation": 2,
     "config": 2,
     "source": 6
   },
   "linesOfCodePerLanguage": {
-    "Python": 171
+    "Python": 389
   },
   "filesPerLanguage": {
     "Python": 6
@@ -167,8 +163,8 @@
   "topLevelDirectories": [
     {
       "name": "src",
-      "numFiles": 8,
-      "totalLoc": 130,
+      "numFiles": 9,
+      "totalLoc": 348,
       "dominantLanguage": "Python"
     },
     {
@@ -179,7 +175,7 @@
     },
     {
       "name": "logs",
-      "numFiles": 11,
+      "numFiles": 13,
       "totalLoc": 0
     }
   ],
@@ -188,18 +184,18 @@
       "path": "src",
       "name": "src",
       "level": 1,
-      "numFiles": 8,
-      "totalLoc": 130,
+      "numFiles": 9,
+      "totalLoc": 348,
       "dominantLanguage": "Python",
       "category": "General",
-      "description": "General module with 8 files (Python)",
+      "description": "General module with 9 files (Python)",
       "subdirectories": [
         {
           "path": "src/tvconnect",
           "name": "tvconnect",
           "level": 2,
           "numFiles": 4,
-          "totalLoc": 130,
+          "totalLoc": 348,
           "dominantLanguage": "Python",
           "category": "General",
           "description": "General module with 4 files (Python)",
@@ -243,10 +239,10 @@
       "path": "logs",
       "name": "logs",
       "level": 1,
-      "numFiles": 11,
+      "numFiles": 13,
       "totalLoc": 0,
       "category": "General",
-      "description": "General module with 11 files",
+      "description": "General module with 13 files",
       "subdirectories": []
     }
   ],
@@ -283,10 +279,17 @@
     "total": 0
   },
   "complexity": {
-    "averageFileSize": 5.896551724137931,
+    "averageFileSize": 12.15625,
     "maxFileSize": 0,
     "nestedDepth": 0,
     "estimatedComplexity": "low"
+  },
+  "gitRepo": {
+    "firstCommitDate": "2025-12-28",
+    "totalCommits": 1,
+    "numContributors": 0,
+    "currentBranch": "main",
+    "remoteUrls": []
   },
   "license": "MIT"
 }
