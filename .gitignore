@@ -48,6 +48,17 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+venv/
+venv
+env/
+ENV/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
 
 # IntelliJ Idea family of suites
 .idea
